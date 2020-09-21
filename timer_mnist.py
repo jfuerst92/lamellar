@@ -32,8 +32,8 @@ def main():
     np.random.seed(0)
     overall_start_time = time.time()
     print("loading data...")
-    df_train = pd.read_csv("../data/mnist/csv_format/train.csv")
-    df_test = pd.read_csv("../data/mnist/csv_format/test.csv")
+    df_train = pd.read_csv("data/mnist/csv_format/train.csv")
+    df_test = pd.read_csv("data/mnist/csv_format/test.csv")
     X = []
     y = []
     for row in df_train.iterrows() :
